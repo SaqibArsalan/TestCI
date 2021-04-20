@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn clean verify'
+                bat '.\mvnw test'
             }
         }
         stage('Deploy') {
