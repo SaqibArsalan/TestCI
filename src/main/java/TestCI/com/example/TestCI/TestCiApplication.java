@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestCiApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello World!!");
 		SpringApplication.run(TestCiApplication.class, args);
 	}
 
